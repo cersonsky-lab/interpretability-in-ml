@@ -1,0 +1,17 @@
+# Runtime dependencies for cersonsky-lab/interpretability-in-ml
+# Tested target: Python 3.12, matching the notebooks' kernelspec.
+
+numpy>=1.26,<3
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.4
+skmatter>=0.3
+shap>=0.45
+torch>=2.2
+pysr>=1.5
+
+# Notebook UX
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.29
+ipywidgets>=8.1
